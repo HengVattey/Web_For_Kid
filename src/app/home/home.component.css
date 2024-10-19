@@ -1,0 +1,55 @@
+body{
+
+background-color: #e6dac9;
+
+
+
+}
+
+/* For responsive page  */
+@media (min-width: 576px) { 
+
+  .left-home {
+
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  
+
+ }
+
+@media (min-width: 768px) { 
+
+.left-home {
+
+  display: flex;
+  justify-content: center;
+}
+
+
+
+ }
+
+
+
+@media (min-width: 992px) { 
+
+
+
+
+ }
+
+
+@media (min-width: 1200px) {  
+
+
+}
+
+
+
+@media (min-width: 1400px) { 
+
+
+}
