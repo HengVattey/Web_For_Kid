@@ -5,13 +5,12 @@ import { ServiceComponent } from './service/service.component';
 import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
-
-  
   {
+
     path: '',
     redirectTo:'home',
     pathMatch:'full'
-    
+
   },
   {
     path: 'home',
@@ -22,8 +21,6 @@ export const routes: Routes = [
     path: 'About',
     component: AboutComponent
     },
-    
-    
     {
     
     path:'Contact',
@@ -31,12 +28,8 @@ export const routes: Routes = [
     },
     {
     path: 'Service',
-    component: ServiceComponent
-    
-    
+    component: ServiceComponent 
     }
-
-
 
 
 ];

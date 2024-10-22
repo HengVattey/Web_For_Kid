@@ -13,5 +13,33 @@ height: 300px;
 }
 li{
 list-style-type: none;
+font-size: 30px;
+color: #555;
+
+}
+a{
+  text-decoration: none;
+
+}
+
+
+@media (min-width: 576PX){
+
+.icon{
+  margin-bottom: 1.2rem;
+}
+
+
+}
+@media (min-width: 768PX){
+
+
+
+
+}
+@media (min-width: 992PX){
+
+
+
 
 }
